@@ -3,19 +3,7 @@ import ICONS from "@/lib/figma-icons.json";
 /**
  * The exact Iconify icons the designer placed in the Figma file, fetched by
  * the names recorded on each node (e.g. "tdesign:money") and inlined so there
-  power: (
-    <>
-      <path d="M12 3v8.5" />
-      <path d="M17.3 6.8a7.2 7.2 0 1 1-10.6 0" />
-    </>
-  ),
-  phone: (
-    <>
-      <rect x="6.5" y="2.5" width="11" height="19" rx="2.5" />
-      <path d="M10.5 18.5h3" />
-    </>
-  ),
-  more: (
+ * is no runtime dependency on the Iconify CDN.
     <>
       <rect x="3.5" y="3.5" width="7" height="7" rx="2" />
       <rect x="13.5" y="3.5" width="7" height="7" rx="2" />
