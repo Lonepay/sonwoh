@@ -2,17 +2,26 @@
 
 import { useState } from "react";
 
+/**
+ * Geometry mirrors the Figma "Form" frame (1440x268):
+ *   text block  x=170 y=91.5  w=464
+ *   form block  x=694 y=58    label 20 / field 36 / button 240x52 at y=158
+ *   arrow mark  x=1218 y=105  52x58
+ */
 export default function ContactForm() {
   const [email, setEmail] = useState("");
   const [sent, setSent] = useState(false);
 
   return (
-    <section id="contact" className="border-b border-ink/10 bg-white py-14">
-      <div className="mx-auto max-w-[1240px] px-5 sm:px-6 lg:px-0">
-        <div className="grid items-center gap-8 lg:grid-cols-2">
-          <div>
-            <h2 className="font-display text-[30px] font-bold leading-[1.2] text-ink">
-              Stay in the loop
+    <section
+      id="contact"
+      className="relative border-b border-ink/10 bg-lilac py-12 lg:py-14 xl:py-0"
+    >
+      <div className="relative mx-auto max-w-[1240px] px-5 sm:px-6 xl:h-[268px] xl:px-0 xl:pl-[70px]">
+        <div className="grid gap-8 lg:grid-cols-2 lg:gap-10 xl:grid-cols-[464px_520px] xl:gap-[60px]">
+          <div className="xl:pt-[91px]">
+            <h2 className="font-display text-[28px] font-bold leading-[1.2] text-ink lg:text-[32px]">
+              Join Waitlist
             </h2>
             <p className="mt-3 text-[15px] text-ink/70">
               New assets, new billers and product updates — about once a month,
