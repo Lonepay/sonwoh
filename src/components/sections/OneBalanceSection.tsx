@@ -15,6 +15,13 @@ export default function OneBalanceSection() {
           sizes="(max-width: 1024px) 70vw, 560px"
           className="pointer-events-none absolute left-[3%] top-2 hidden w-[40%] max-w-[550px] lg:block"
         />
+
+        {/* Fills the whole band so the dark reaches the top edge on the right,
+            and clips the map along the curve. */}
+        <svg
+          className="absolute inset-0 block h-full w-full text-ink"
+          viewBox="0 0 1440 300"
+          preserveAspectRatio="none"
       </svg>
 
       <div className="bg-ink">
