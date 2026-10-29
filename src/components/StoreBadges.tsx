@@ -37,16 +37,20 @@ export default function StoreBadges({
   tone?: Tone;
   className?: string;
 }) {
-  const appStore =
-    tone === "light"
-      ? "border-transparent bg-ink text-white"
-      : "border-white/40 bg-transparent text-white";
+  const light = tone === "light";
+
+  const shell =
+    "inline-flex h-[60px] w-[220px] items-center gap-3 rounded-[10px] border px-4 transition-colors";
 
   return (
     <div className={`flex flex-wrap items-center gap-4 ${className}`}>
       <Link
         href="#get-the-app"
-        className={`inline-flex h-[60px] w-[220px] items-center gap-3 rounded-[10px] border px-4 transition-opacity hover:opacity-90 ${appStore}`}
+        className={`${shell} ${
+          light
+            ? "border-ink/25 bg-white text-ink hover:border-ink/50"
+            : "border-white/40 bg-transparent text-white hover:border-white/70"
+        }`}
       >
         <AppleGlyph className="h-8 w-8 shrink-0" />
         <span className="flex flex-col leading-none">
