@@ -9,6 +9,15 @@ function Card({
   item,
   dark = false,
 }: {
+  item: (typeof CAPABILITIES)[number];
+  dark?: boolean;
+}) {
+  return (
+    <div className="flex flex-col px-7 py-8 lg:px-9 lg:py-9">
+      <IconTile
+        icon={item.icon as IconName}
+        tile={dark ? "white" : item.tile}
+        size="lg"
 
 export default function Capabilities() {
   return (
