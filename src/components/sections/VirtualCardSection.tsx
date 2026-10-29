@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function VirtualCardSection() {
   return (
-    <section className="bg-white py-16 lg:py-[80px]">
+    <section className="bg-white py-16 lg:py-[108px]">
       <div className="mx-auto max-w-[1240px] px-5 sm:px-6 lg:px-0">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-14">
           <Image
