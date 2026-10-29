@@ -28,13 +28,13 @@ const NOTES = [
     time: "10:05 pm",
     amount: "$385",
     tone: "text-brand",
-    place: "left-0 bottom-8 lg:-left-20 lg:bottom-16",
+    place: "left-0 top-[70%] lg:left-[-26%] lg:top-[66%]",
   },
 ] as const;
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-lilac pb-20 pt-10 lg:pb-[90px] lg:pt-[60px]">
+    <section className="relative overflow-hidden bg-lilac pb-16 pt-8 lg:pb-[96px] lg:pt-[66px]">
       <div className="mx-auto max-w-[1240px] px-5 sm:px-6 lg:px-0">
         <div className="grid items-center gap-16 lg:grid-cols-[minmax(0,560px)_1fr] lg:gap-10">
           <div>
