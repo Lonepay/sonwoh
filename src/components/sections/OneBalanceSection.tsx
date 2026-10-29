@@ -22,7 +22,14 @@ export default function OneBalanceSection() {
           className="absolute inset-0 block h-full w-full text-ink"
           viewBox="0 0 1440 300"
           preserveAspectRatio="none"
-      </svg>
+          aria-hidden
+        >
+          <path
+            d="M0 135C140 160 300 165 470 128 650 88 780 16 920 4 1120-4 1260 0 1440 0v300H0V135Z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
 
       <div className="bg-ink">
         <div className="mx-auto max-w-[1240px] px-5 pb-16 sm:px-6 lg:px-0 lg:pb-[70px]">
