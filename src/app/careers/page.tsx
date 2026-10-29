@@ -16,22 +16,22 @@ const QUALITIES: { title: string; body: string; icon: IconName }[] = [
   {
     title: "Security first",
     body: "People move real money through Sonwoh. We look for the instinct to ask what could go wrong before shipping, not after.",
-    icon: "shield",
+    icon: "mdi:secure-outline",
   },
   {
     title: "Close to the user",
     body: "The best decisions here come from reading support tickets. We look for people who want to understand the person on the other side of the screen.",
-    icon: "support",
+    icon: "fluent:person-support-28-regular",
   },
   {
     title: "Care about the details",
     body: "A rate off by a decimal or a mislabelled button costs someone money. Precision matters more than speed.",
-    icon: "check",
+    icon: "charm:circle-tick",
   },
   {
     title: "Ship and learn",
     body: "We would rather release something small, watch how it is used, and improve it than spend a quarter guessing.",
-    icon: "bolt",
+    icon: "tdesign:money",
   },
 ];
 
