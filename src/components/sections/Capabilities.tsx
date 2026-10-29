@@ -48,11 +48,13 @@ function Card({
 
 export default function Capabilities() {
   return (
-    <section id="what-you-can-do" className="bg-lilac/50 py-20 lg:py-[100px]">
-      <div className="mx-auto max-w-[1240px] px-5 sm:px-6 lg:px-0">
-        <h2 className="max-w-[580px] font-display text-[32px] font-black leading-[1.15] text-ink lg:text-[42px]">
-          What you can do with Sonwoh?
-        </h2>
+    <section id="what-you-can-do">
+      {/* Six live services, split by the green hairline rules in the design. */}
+      <div className="bg-lilac pt-20 pb-10 lg:pt-[100px]">
+        <div className="mx-auto max-w-[1240px] px-5 sm:px-6 lg:px-0">
+          <h2 className="max-w-[580px] font-display text-[32px] font-black leading-[1.15] text-ink lg:text-[42px]">
+            What you can do with Sonwoh?
+          </h2>
 
         <ul className="mt-12 grid gap-px overflow-hidden rounded-[20px] bg-ink/10 sm:grid-cols-2 lg:grid-cols-4">
           {CAPABILITIES.map((item) => (
