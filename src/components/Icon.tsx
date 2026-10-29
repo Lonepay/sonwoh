@@ -4,19 +4,7 @@ import ICONS from "@/lib/figma-icons.json";
  * The exact Iconify icons the designer placed in the Figma file, fetched by
  * the names recorded on each node (e.g. "tdesign:money") and inlined so there
  * is no runtime dependency on the Iconify CDN.
-    <>
-      <rect x="3.5" y="3.5" width="7" height="7" rx="2" />
-      <rect x="13.5" y="3.5" width="7" height="7" rx="2" />
-      <rect x="3.5" y="13.5" width="7" height="7" rx="2" />
-      <path d="M17 13.9v6.2M13.9 17h6.2" />
-    </>
-  ),
-  card: (
-    <>
-      <rect x="2.5" y="5" width="19" height="14" rx="2.5" />
-      <path d="M2.5 9.8h19" />
-      <path d="M6 14.6h3.5" />
-    </>
+ */
   ),
   creditcard: (
     <>
