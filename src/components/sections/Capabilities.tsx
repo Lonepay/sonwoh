@@ -36,6 +36,15 @@ function Card({
       </h3>
 
       <p
+        className={`mt-3 max-w-[330px] text-[14px] leading-[1.7] ${
+          dark ? "text-white/65" : "text-ink/70"
+        }`}
+      >
+        {item.body}
+      </p>
+    </div>
+  );
+}
 
 export default function Capabilities() {
   return (
