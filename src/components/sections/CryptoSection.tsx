@@ -3,14 +3,14 @@ import Link from "next/link";
 import Icon from "@/components/Icon";
 
 const PILLS = [
-  { label: "Instant Payout", icon: "card" },
-  { label: "Good Rates", icon: "check" },
-  { label: "Secure & Reliable", icon: "shield" },
+  { label: "Instant Payout", icon: "solar:card-outline" },
+  { label: "Good Rates", icon: "mynaui:percentage-waves-solid" },
+  { label: "Secure & Reliable", icon: "material-symbols-light:lock" },
 ] as const;
 
 export default function CryptoSection() {
   return (
-    <section className="hex-field relative overflow-hidden py-16 lg:py-0">
+    <section className="hex-field relative py-16 lg:py-0">
       <div className="mx-auto max-w-[1240px] px-5 sm:px-6 lg:px-0">
         <div className="grid items-center gap-12 lg:min-h-[780px] lg:grid-cols-2 lg:gap-16">
           <Image
@@ -43,7 +43,6 @@ export default function CryptoSection() {
                   <Icon
                     name={pill.icon}
                     className="h-[18px] w-[18px] text-brand"
-                    strokeWidth={1.8}
                   />
                   {pill.label}
                 </li>
