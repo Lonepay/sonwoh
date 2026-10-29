@@ -18,6 +18,15 @@ function Card({
         icon={item.icon as IconName}
         tile={dark ? "white" : item.tile}
         size="lg"
+      />
+
+      {/* the reference stacks the pill on its own line, above the title */}
+      {"soon" in item && item.soon && (
+        <span className="mt-6 w-fit rounded-full border border-accent px-4 py-1.5 text-[11px] font-bold tracking-[0.08em] text-accent">
+          COMING SOON
+        </span>
+      )}
+
 
 export default function Capabilities() {
   return (
