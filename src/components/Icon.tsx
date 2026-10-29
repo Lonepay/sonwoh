@@ -1,18 +1,6 @@
 import ICONS from "@/lib/figma-icons.json";
 
-const PATHS: Record<IconName, React.ReactNode> = {
-  bolt: <path d="M13 2 4.5 13.5H11l-1 8.5L19.5 10H13l1-8Z" />,
-  shield: (
-    <>
-      <path d="M12 2.8 4.8 5.6v6c0 4.6 3.1 8.6 7.2 9.7 4.1-1.1 7.2-5.1 7.2-9.7v-6L12 2.8Z" />
-      <path d="m8.9 11.9 2.2 2.3 4-4.5" />
-    </>
-  ),
-  swap: (
-    <>
-      <path d="M4 8h13l-3.2-3.3M20 16H7l3.2 3.3" />
-    </>
-  ),
+/**
   support: (
     <>
       <path d="M4.5 14v-2a7.5 7.5 0 0 1 15 0v2" />
