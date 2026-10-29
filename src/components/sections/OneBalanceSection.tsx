@@ -3,16 +3,17 @@ import Image from "next/image";
 export default function OneBalanceSection() {
   return (
     <section className="relative bg-lilac">
-      {/* the wave that carves the dark panel out of the lavender band */}
-      <svg
-        className="block h-[70px] w-full text-ink sm:h-[110px]"
-        viewBox="0 0 1440 110"
-        preserveAspectRatio="none"
-        aria-hidden
-      >
-        <path
-          d="M0 44C180 -4 360 -14 560 26c190 38 380 92 600 76 110-8 200-34 280-62v70H0V44Z"
-          fill="currentColor"
+      {/* The dotted map sits in the light wedge, and the dark panel sweeps up
+          under it from the left - one continuous curve, as in the reference. */}
+      <div className="relative h-[180px] overflow-hidden lg:h-[300px]">
+        <Image
+          src="/images/worldmap.png"
+          alt=""
+          aria-hidden
+          width={1104}
+          height={500}
+          sizes="(max-width: 1024px) 70vw, 560px"
+          className="pointer-events-none absolute left-[3%] top-2 hidden w-[40%] max-w-[550px] lg:block"
         />
       </svg>
 
