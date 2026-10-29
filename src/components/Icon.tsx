@@ -1,17 +1,4 @@
-export type IconName =
-  | "bolt"
-  | "shield"
-  | "swap"
-  | "support"
-  | "exchange"
-  | "transfer"
-  | "giftcard"
-  | "power"
-  | "phone"
-  | "more"
-  | "card"
-  | "creditcard"
-  | "check";
+import ICONS from "@/lib/figma-icons.json";
 
 const PATHS: Record<IconName, React.ReactNode> = {
   bolt: <path d="M13 2 4.5 13.5H11l-1 8.5L19.5 10H13l1-8Z" />,
