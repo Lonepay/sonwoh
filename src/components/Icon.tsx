@@ -1,19 +1,7 @@
 import ICONS from "@/lib/figma-icons.json";
 
 /**
-  support: (
-    <>
-      <path d="M4.5 14v-2a7.5 7.5 0 0 1 15 0v2" />
-      <path d="M4.5 13.3h1.8a1 1 0 0 1 1 1v2.9a1 1 0 0 1-1 1H5.6a1.1 1.1 0 0 1-1.1-1.1v-3.8ZM19.5 13.3h-1.8a1 1 0 0 0-1 1v2.9a1 1 0 0 0 1 1h.7a1.1 1.1 0 0 0 1.1-1.1v-3.8Z" />
-      <path d="M19.5 18.2v.4a2.6 2.6 0 0 1-2.6 2.6H13" />
-    </>
-  ),
-  exchange: (
-    <>
-      <circle cx="12" cy="12" r="8.6" />
-      <path d="M10 8.6h3.2a2 2 0 0 1 0 4H10h3.6a2 2 0 0 1 0 4H10M11.6 6.6v12" />
-    </>
-  ),
+ * The exact Iconify icons the designer placed in the Figma file, fetched by
   transfer: (
     <>
       <path d="M4 7.8h12.4l-3-3M20 16.2H7.6l3 3" />
