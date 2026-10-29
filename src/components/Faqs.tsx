@@ -8,7 +8,7 @@ export default function Faqs() {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section id="faqs" className="bg-white py-20 lg:py-[110px]">
+    <section id="faqs" className="bg-lilac py-20 lg:py-[110px]">
       <div className="mx-auto max-w-[1240px] px-5 sm:px-6 lg:px-0">
         <div className="grid gap-12 lg:grid-cols-[minmax(0,380px)_1fr] lg:gap-16">
           <div>
@@ -27,7 +27,7 @@ export default function Faqs() {
             </Link>
           </div>
 
-          <ul className="divide-y divide-ink/10 rounded-[20px] bg-lilac/50 px-5 sm:px-8">
+          <ul className="divide-y divide-ink/10 rounded-[20px] border border-ink/10 bg-white px-5 sm:px-8">
             {FAQS.map((faq, i) => {
               const isOpen = open === i;
               return (
