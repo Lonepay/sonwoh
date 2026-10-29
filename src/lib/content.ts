@@ -67,18 +67,20 @@ export const WHY_SONWOH = [
     title: "Best Market Rates",
     tile: "navy",
     body: "We offer fair, transparent, and highly competitive exchange rates so you can trade with confidence and keep more of your money.",
-    icon: "swap",
+    icon: "icon-park:switch",
   },
   {
     title: "Trusted Customer Support",
+    tile: "amber",
     body: "Our dedicated support team is available to assist you whenever you need help, ensuring a smooth and hassle-free trading experience.",
-    icon: "support",
+    icon: "fluent:person-support-28-regular",
   },
 ] as const;
 
 export const CAPABILITIES = [
   {
     title: "Buy & sell crypto",
+    tile: "navy",
     body: "Trade BTC, ETH, USDT, and more at live rates, with instant settlement to your balance.",
     icon: "exchange",
   },
