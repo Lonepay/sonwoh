@@ -76,8 +76,16 @@ export default function Capabilities() {
                   <span
                     aria-hidden
                     className="absolute inset-x-0 top-0 hidden h-px bg-gradient-to-r from-brand to-accent lg:block"
-              className="flex flex-col bg-lilac/50 p-6 lg:p-7"
-            >
+                  />
+                )}
+                {i >= 2 && (
+                  <span
+                    aria-hidden
+                    className="absolute inset-x-0 top-0 hidden h-px bg-gradient-to-r from-brand to-accent sm:block lg:hidden"
+                  />
+                )}
+                {i > 0 && (
+                  <span
               <span className="inline-flex h-[52px] w-[52px] items-center justify-center rounded-[14px] bg-white text-brand">
                 <Icon name={item.icon as IconName} className="h-7 w-7" />
               </span>
