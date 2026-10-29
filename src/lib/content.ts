@@ -53,16 +53,19 @@ export const FAQS = [
 export const WHY_SONWOH = [
   {
     title: "Fast & Instant Payments",
+    tile: "blue",
     body: "Get paid instantly on every transaction. No waiting, no unnecessary delays—just quick and seamless payouts.",
-    icon: "bolt",
+    icon: "tdesign:money",
   },
   {
     title: "Safe & Secure Platform",
+    tile: "green",
     body: "Your funds and personal information are protected with advanced security systems, giving you complete peace of mind.",
-    icon: "shield",
+    icon: "mdi:secure-outline",
   },
   {
     title: "Best Market Rates",
+    tile: "navy",
     body: "We offer fair, transparent, and highly competitive exchange rates so you can trade with confidence and keep more of your money.",
     icon: "swap",
   },
