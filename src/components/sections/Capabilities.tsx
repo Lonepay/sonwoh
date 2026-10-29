@@ -66,8 +66,16 @@ export default function Capabilities() {
                     className="absolute inset-y-0 left-0 hidden w-px bg-gradient-to-b from-brand to-accent lg:block"
                   />
                 )}
-            <li
-              key={item.title}
+                {i % 2 !== 0 && (
+                  <span
+                    aria-hidden
+                    className="absolute inset-y-0 left-0 hidden w-px bg-gradient-to-b from-brand to-accent sm:block lg:hidden"
+                  />
+                )}
+                {i >= 3 && (
+                  <span
+                    aria-hidden
+                    className="absolute inset-x-0 top-0 hidden h-px bg-gradient-to-r from-brand to-accent lg:block"
               className="flex flex-col bg-lilac/50 p-6 lg:p-7"
             >
               <span className="inline-flex h-[52px] w-[52px] items-center justify-center rounded-[14px] bg-white text-brand">
