@@ -1,10 +1,17 @@
+import Image from "next/image";
 import { TESTIMONIALS } from "@/lib/content";
 
 function Stars() {
   return (
     <span className="flex gap-0.5" aria-label="Rated 5 out of 5">
       {Array.from({ length: 5 }).map((_, i) => (
-        <svg key={i} viewBox="0 0 24 24" className="h-4 w-4 text-[#f5a623]" fill="currentColor" aria-hidden>
+        <svg
+          key={i}
+          viewBox="0 0 24 24"
+          className="h-4 w-4 text-[#f5a623]"
+          fill="currentColor"
+          aria-hidden
+        >
           <path d="m12 2.6 2.9 5.9 6.5.95-4.7 4.58 1.1 6.47L12 17.45 6.2 20.5l1.1-6.47-4.7-4.58 6.5-.95L12 2.6Z" />
         </svg>
       ))}
@@ -14,7 +21,7 @@ function Stars() {
 
 export default function Testimonials() {
   return (
-    <section className="bg-lilac/60 py-20 lg:py-[90px]">
+    <section className="bg-ink py-16 lg:py-[70px]">
       <div className="mx-auto max-w-[1240px] px-5 sm:px-6 lg:px-0">
         <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,460px)_1fr] lg:gap-20">
           <div className="relative overflow-hidden rounded-[24px] bg-ink-deep p-10 lg:aspect-[462/588] lg:p-12">
