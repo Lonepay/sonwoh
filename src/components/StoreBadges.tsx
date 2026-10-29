@@ -8,13 +8,22 @@ function AppleGlyph({ className = "" }: { className?: string }) {
   );
 }
 
-function PlayGlyph({ className = "" }: { className?: string }) {
+/** Full-colour Play mark for light surfaces; flat green on dark ones. */
+function PlayGlyph({ className = "", flat = false }: { className?: string; flat?: boolean }) {
+  if (flat) {
+    return (
+      <svg viewBox="0 0 24 24" className={className} aria-hidden>
+        <path d="M3.6 2.3a1 1 0 0 0-.6.92v17.56a1 1 0 0 0 .6.92l10.9-9.7L3.6 2.3Z" fill="#00b86b" />
+        <path d="M14.5 12 3.6 21.7a1 1 0 0 0 .9-.05l15.9-9.09a1 1 0 0 0 0-1.74L4.5 1.73a1 1 0 0 0-.9-.05L14.5 12Z" fill="#00b86b" />
+      </svg>
+    );
+  }
   return (
     <svg viewBox="0 0 24 24" className={className} aria-hidden>
-      <path d="M3.6 2.3a1 1 0 0 0-.6.92v17.56a1 1 0 0 0 .6.92l9.5-9.7L3.6 2.3Z" fill="#00b86b" />
-      <path d="M17.9 9.3 14.6 7.4 4.5 1.63a1 1 0 0 0-.9-.05l9.5 9.7 4.8-1.98Z" fill="#00b86b" />
-      <path d="m13.1 11.28-9.5 9.7a1 1 0 0 0 .9-.05l10.1-5.77 3.3-1.9-4.8-1.98Z" fill="#00a35e" />
-      <path d="m17.9 9.3-4.8 1.98 4.8 1.98 2.6-1.49a1 1 0 0 0 0-1.74L17.9 9.3Z" fill="#0b7a4b" />
+      <path d="M3.6 2.3a1 1 0 0 0-.6.92v17.56a1 1 0 0 0 .6.92l9.5-9.7L3.6 2.3Z" fill="#00c3ff" />
+      <path d="M17.9 9.3 14.6 7.4 4.5 1.63a1 1 0 0 0-.9-.05l9.5 9.7 4.8-1.98Z" fill="#00e37a" />
+      <path d="m13.1 11.28-9.5 9.7a1 1 0 0 0 .9-.05l10.1-5.77 3.3-1.9-4.8-1.98Z" fill="#ff3a44" />
+      <path d="m17.9 9.3-4.8 1.98 4.8 1.98 2.6-1.49a1 1 0 0 0 0-1.74L17.9 9.3Z" fill="#ffc700" />
     </svg>
   );
 }
