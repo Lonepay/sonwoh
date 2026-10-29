@@ -66,12 +66,11 @@ export default function Hero() {
                 aria-hidden
               />
 
-            <div className="relative px-0 sm:px-10 lg:px-14">
               <Image
                 src="/images/hero-phone.png"
                 alt="The Sonwoh app showing an available balance, quick services and recent activity"
                 width={536}
-                height={973}
+                height={606}
                 priority
                 sizes="(max-width: 1024px) 80vw, 420px"
                 className="relative mx-auto h-auto w-full max-w-[300px] sm:max-w-[380px]"
