@@ -1,4 +1,5 @@
-import Icon, { type IconName } from "@/components/Icon";
+import IconTile from "@/components/IconTile";
+import { type IconName } from "@/components/Icon";
 import { CAPABILITIES } from "@/lib/content";
 
 export default function Capabilities() {
