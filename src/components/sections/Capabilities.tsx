@@ -27,6 +27,15 @@ function Card({
         </span>
       )}
 
+      <h3
+        className={`font-display text-[20px] font-bold ${
+          dark ? "mt-4 text-white" : "mt-6 text-ink"
+        }`}
+      >
+        {item.title}
+      </h3>
+
+      <p
 
 export default function Capabilities() {
   return (
