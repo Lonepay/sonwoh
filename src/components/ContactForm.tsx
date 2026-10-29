@@ -23,9 +23,8 @@ export default function ContactForm() {
             <h2 className="font-display text-[28px] font-bold leading-[1.2] text-ink lg:text-[32px]">
               Join Waitlist
             </h2>
-            <p className="mt-3 text-[15px] text-ink/70">
-              New assets, new billers and product updates — about once a month,
-              never more.
+            <p className="mt-4 text-[14px] leading-[1.4] text-ink/70 lg:mt-[24px]">
+              Do not miss it when we launch
             </p>
           </div>
 
