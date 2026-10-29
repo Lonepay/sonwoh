@@ -23,21 +23,18 @@ export default function Testimonials() {
   return (
     <section className="bg-ink py-16 lg:py-[70px]">
       <div className="mx-auto max-w-[1240px] px-5 sm:px-6 lg:px-0">
-        <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,460px)_1fr] lg:gap-20">
-          <div className="relative overflow-hidden rounded-[24px] bg-ink-deep p-10 lg:aspect-[462/588] lg:p-12">
-            <div className="hex-field absolute inset-0 opacity-70" aria-hidden />
-            <div className="relative flex h-full flex-col justify-end">
-              <p className="font-display text-[46px] font-black leading-none text-brand">
-                4.9
-              </p>
-              <p className="mt-3 text-[15px] text-white/70">
-                Average rating across the App Store and Google Play.
-              </p>
-            </div>
-          </div>
+        <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,420px)_1fr] lg:gap-16">
+          <Image
+            src="/images/people.png"
+            alt="Three Sonwoh users celebrating while using the app"
+            width={960}
+            height={1116}
+            sizes="(max-width: 1024px) 80vw, 420px"
+            className="mx-auto h-auto w-full max-w-[320px] lg:max-w-[420px]"
+          />
 
           <div>
-            <h2 className="max-w-[520px] font-display text-[36px] font-black leading-[1.15] text-ink lg:text-[42px]">
+            <h2 className="max-w-[420px] font-display text-[34px] font-black leading-[1.15] text-white lg:text-[40px]">
               Trusted by Thousands of Happy Users
             </h2>
 
