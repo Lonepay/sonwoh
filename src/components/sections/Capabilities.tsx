@@ -56,8 +56,16 @@ export default function Capabilities() {
             What you can do with Sonwoh?
           </h2>
 
-        <ul className="mt-12 grid gap-px overflow-hidden rounded-[20px] bg-ink/10 sm:grid-cols-2 lg:grid-cols-4">
-          {CAPABILITIES.map((item) => (
+          <ul className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3">
+            {LIVE.map((item, i) => (
+              <li key={item.title} className="relative">
+                {/* green-to-blue rules, matching the reference */}
+                {i % 3 !== 0 && (
+                  <span
+                    aria-hidden
+                    className="absolute inset-y-0 left-0 hidden w-px bg-gradient-to-b from-brand to-accent lg:block"
+                  />
+                )}
             <li
               key={item.title}
               className="flex flex-col bg-lilac/50 p-6 lg:p-7"
