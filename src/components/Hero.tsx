@@ -10,7 +10,7 @@ const NOTES = [
     time: "2:20 pm",
     amount: "$63,000.85",
     tone: "text-brand",
-    place: "left-0 top-4 lg:-left-12 lg:top-10",
+    place: "left-0 top-[6%] lg:left-[-20%] lg:top-[10%]",
   },
   {
     icon: "/images/icon-mtn.png",
@@ -19,7 +19,7 @@ const NOTES = [
     time: "11:45 am",
     amount: "10,000",
     tone: "text-danger",
-    place: "right-0 top-[96px] lg:-right-10 lg:top-[130px]",
+    place: "right-0 top-[28%] lg:right-[-20%] lg:top-[31%]",
   },
   {
     icon: "/images/icon-apple.png",
