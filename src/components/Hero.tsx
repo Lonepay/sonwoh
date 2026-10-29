@@ -39,7 +39,7 @@ export default function Hero() {
         <div className="grid items-center gap-16 lg:grid-cols-[minmax(0,560px)_1fr] lg:gap-10">
           <div>
             <p className="inline-flex h-[30px] items-center gap-2 rounded-full bg-ink pl-3 pr-4 text-[12px] tracking-[0.04em] text-white">
-              <Icon name="shield" className="h-4 w-4" strokeWidth={1.8} />
+              <Icon name="marketeq:secure" className="h-4 w-4 text-white" />
               The Future of Digital Transaction
             </p>
 
@@ -57,12 +57,14 @@ export default function Hero() {
             <StoreBadges className="mt-9" />
           </div>
 
-          <div className="relative mx-auto w-full max-w-[520px] lg:max-w-none">
-            {/* the hexagon panel the phone sits against in the design */}
-            <div
-              className="hex-field absolute left-[20%] top-[24%] hidden h-[42%] w-[58%] rounded-[16px] opacity-70 sm:block"
-              aria-hidden
-            />
+          <div className="relative mx-auto w-full max-w-[460px] lg:max-w-[480px]">
+            <div className="relative">
+              {/* The panel is 400x242 behind a 268-wide phone in the design, so
+                  the phone overhangs it both above and below. */}
+              <div
+                className="hex-field absolute left-[8%] top-[27%] hidden h-[63%] w-[84%] rounded-[16px] opacity-70 sm:block"
+                aria-hidden
+              />
 
             <div className="relative px-0 sm:px-10 lg:px-14">
               <Image
