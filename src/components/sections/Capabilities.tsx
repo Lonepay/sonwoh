@@ -2,6 +2,14 @@ import IconTile from "@/components/IconTile";
 import { type IconName } from "@/components/Icon";
 import { CAPABILITIES } from "@/lib/content";
 
+const LIVE = CAPABILITIES.filter((c) => !("soon" in c && c.soon));
+const SOON = CAPABILITIES.filter((c) => "soon" in c && c.soon);
+
+function Card({
+  item,
+  dark = false,
+}: {
+
 export default function Capabilities() {
   return (
     <section id="what-you-can-do" className="bg-lilac/50 py-20 lg:py-[100px]">
