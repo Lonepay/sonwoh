@@ -61,7 +61,9 @@ export default function ContactForm() {
 
             <p
               role="status"
-              className={`mt-3 text-[14px] text-brand ${sent ? "" : "invisible"}`}
+              className={`mt-3 text-[14px] text-accent ${
+                sent ? "" : "invisible"
+              }`}
             >
               Thanks — you&apos;re on the list.
             </p>
