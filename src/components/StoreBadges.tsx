@@ -63,11 +63,13 @@ export default function StoreBadges({
 
       <Link
         href="#get-the-app"
-        className={`inline-flex h-[60px] w-[220px] items-center gap-3 rounded-[10px] border border-brand px-4 text-brand transition-colors hover:bg-brand/10 ${
-          tone === "light" ? "bg-white" : "bg-transparent"
+        className={`${shell} ${
+          light
+            ? "border-ink/25 bg-white text-ink hover:border-ink/50"
+            : "border-white/40 bg-transparent text-brand hover:border-white/70"
         }`}
       >
-        <PlayGlyph className="h-8 w-8 shrink-0" />
+        <PlayGlyph className="h-8 w-8 shrink-0" flat={!light} />
         <span className="flex flex-col leading-none">
           <span className="text-[11px] font-medium">GET IT ON</span>
           <span className="mt-1 text-[19px] font-semibold">Google play</span>
