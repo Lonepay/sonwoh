@@ -22,8 +22,7 @@ export default function Icon({
       viewBox={icon.viewBox}
       className={className}
       aria-hidden
-    >
-      {PATHS[name]}
-    </svg>
+      dangerouslySetInnerHTML={{ __html: icon.body }}
+    />
   );
 }
