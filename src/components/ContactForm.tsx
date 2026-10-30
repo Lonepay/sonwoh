@@ -33,7 +33,7 @@ export default function ContactForm() {
               e.preventDefault();
               setSent(true);
             }}
-            className="w-full"
+            className="w-full lg:max-w-[520px] xl:pt-[58px]"
           >
             <label
               htmlFor="newsletter-email"
