@@ -46,9 +46,8 @@ export default function BillsSection() {
                   className="flex items-center gap-2 text-[15px] text-white"
                 >
                   <Icon
-                    name="check"
+                    name="charm:circle-tick"
                     className="h-[15px] w-[15px] shrink-0"
-                    strokeWidth={2}
                   />
                   {bill}
                 </li>
