@@ -15,22 +15,22 @@ const TOPICS: { title: string; body: string; icon: IconName }[] = [
   {
     title: "Market notes",
     body: "Plain-language reads on what moved the assets you hold, without the hype or the price predictions.",
-    icon: "exchange",
+    icon: "icon-park:switch",
   },
   {
     title: "Product updates",
     body: "New assets, new billers and new features — what shipped, why we built it, and how to use it.",
-    icon: "bolt",
+    icon: "tdesign:money",
   },
   {
     title: "Staying safe",
     body: "How the common scams actually work, and the habits that keep your account and your funds out of reach.",
-    icon: "shield",
+    icon: "mdi:secure-outline",
   },
   {
     title: "Practical guides",
     body: "Walkthroughs for trading, cashing out a gift card, and paying bills — written for first-timers.",
-    icon: "support",
+    icon: "fluent:person-support-28-regular",
   },
 ];
 
