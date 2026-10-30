@@ -109,14 +109,11 @@ export default function Capabilities() {
                     className="absolute inset-y-0 left-0 hidden w-px bg-gradient-to-b from-brand to-accent sm:block"
                   />
                 )}
-              </div>
-
-              <p className="mt-3 text-[14px] leading-[1.7] text-ink/70">
-                {item.body}
-              </p>
-            </li>
-          ))}
-        </ul>
+                <Card item={item} dark />
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </section>
   );
