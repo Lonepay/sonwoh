@@ -97,14 +97,17 @@ export default function Capabilities() {
         </div>
       </div>
 
-              <div className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-2">
-                <h3 className="font-display text-[18px] font-bold text-ink">
-                  {item.title}
-                </h3>
-                {"soon" in item && item.soon && (
-                  <span className="shrink-0 rounded-full border border-brand px-2.5 py-0.5 text-[10px] font-bold tracking-[0.06em] text-brand">
-                    COMING SOON
-                  </span>
+      {/* The two unreleased cards sit on their own dark band in the design. */}
+      <div className="bg-ink py-16 lg:py-[104px]">
+        <div className="mx-auto max-w-[1240px] px-5 sm:px-6 lg:px-0">
+          <ul className="grid sm:grid-cols-2">
+            {SOON.map((item, i) => (
+              <li key={item.title} className="relative sm:px-6 lg:px-12">
+                {i === 1 && (
+                  <span
+                    aria-hidden
+                    className="absolute inset-y-0 left-0 hidden w-px bg-gradient-to-b from-brand to-accent sm:block"
+                  />
                 )}
               </div>
 
