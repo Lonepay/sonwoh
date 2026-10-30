@@ -40,10 +40,10 @@ export default function Testimonials() {
 
             <ul className="mt-9 space-y-7">
               {TESTIMONIALS.map((t) => (
-                <li key={t.name} className="max-w-[460px]">
+                <li key={t.name} className="max-w-[420px]">
                   <Stars />
-                  <p className="mt-2 text-[15px] leading-[1.7] text-ink/80">
-                    <span className="font-bold text-ink">{t.name}</span>{" "}
+                  <p className="mt-2 text-[15px] leading-[1.7] text-white/75">
+                    <span className="font-bold text-white">{t.name}</span>{" "}
                     &ldquo;{t.quote}&rdquo;
                   </p>
                 </li>
