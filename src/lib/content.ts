@@ -82,17 +82,25 @@ export const CAPABILITIES = [
     title: "Buy & sell crypto",
     tile: "navy",
     body: "Trade BTC, ETH, USDT, and more at live rates, with instant settlement to your balance.",
-    icon: "exchange",
+    icon: "streamline-ultimate:crypto-currency-bitcoin-dollar-exchange-bold",
   },
   {
     title: "Send & receive Crypto",
+    tile: "green",
     body: "Move crypto to any wallet in seconds, or receive funds from anywhere in the world.",
-    icon: "transfer",
+    icon: "mingcute:transfer-fill",
   },
   {
     title: "Gift card exchange",
+    tile: "blue",
     body: "Buy gift cards for less, or trade in the ones you're not using for cash or crypto.",
-    icon: "giftcard",
+    icon: "mdi:wallet-giftcard",
+  },
+  {
+    title: "Airtime & data",
+    tile: "blue",
+    body: "Top up your line or grab a data bundle on any network, in a couple of taps.",
+    icon: "bi:phone-fill",
   },
   {
     title: "Electricity & bills",
