@@ -36,8 +36,8 @@ export default function ContactForm() {
             className="w-full lg:max-w-[520px] xl:pt-[58px]"
           >
             <label
-              htmlFor="newsletter-email"
-              className="block text-[15px] font-medium text-ink"
+              htmlFor="waitlist-email"
+              className="block text-[14px] font-medium leading-[20px] text-ink"
             >
               Email address
             </label>
