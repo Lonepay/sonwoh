@@ -39,25 +39,26 @@ export default function ContactForm() {
               htmlFor="waitlist-email"
               className="block text-[14px] font-medium leading-[20px] text-ink"
             >
-              Email address
+              Email
             </label>
-            <div className="mt-2 flex flex-col gap-3 sm:flex-row">
-              <input
-                id="newsletter-email"
-                type="email"
-                required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="you@example.com"
-                className="h-[52px] flex-1 rounded-[10px] border border-ink/15 bg-white px-4 text-[15px] text-ink outline-none transition-colors placeholder:text-ink/40 focus:border-brand"
-              />
-              <button
-                type="submit"
-                className="h-[52px] shrink-0 rounded-[10px] bg-ink px-8 text-[15px] font-bold text-white transition-colors hover:bg-ink-soft sm:w-[180px]"
-              >
-                Subscribe
-              </button>
-            </div>
+
+            <input
+              id="waitlist-email"
+              type="email"
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="Enter your email"
+              className="mt-1 h-[36px] w-full rounded-[6px] border border-ink/15 bg-white px-3 text-[14px] text-ink outline-none transition-colors placeholder:text-ink/40 focus:border-accent"
+            />
+
+            <button
+              type="submit"
+              className="mt-[40px] h-[52px] w-full rounded-[8px] bg-accent text-[15px] font-medium text-white transition-opacity hover:opacity-90 sm:w-[240px]"
+            >
+              Submit
+            </button>
+
             <p
               role="status"
               className={`mt-3 text-[14px] text-brand ${sent ? "" : "invisible"}`}
