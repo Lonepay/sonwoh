@@ -21,11 +21,6 @@ export default function Icon({
     <svg
       viewBox={icon.viewBox}
       className={className}
-      fill={filled ? "currentColor" : "none"}
-      stroke={filled ? "none" : "currentColor"}
-      strokeWidth={strokeWidth}
-      strokeLinecap="round"
-      strokeLinejoin="round"
       aria-hidden
     >
       {PATHS[name]}
