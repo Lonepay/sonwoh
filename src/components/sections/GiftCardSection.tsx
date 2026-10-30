@@ -44,7 +44,7 @@ export default function GiftCardSection() {
               width={848}
               height={1336}
               sizes="(max-width: 1024px) 80vw, 480px"
-              className="mx-auto h-auto w-full max-w-[340px] lg:ml-auto lg:mr-0 lg:max-w-[440px]"
+              className="mx-auto h-auto w-full max-w-[340px] lg:-mt-52 lg:ml-auto lg:mr-0 lg:max-w-[440px]"
             />
           </div>
         </div>
