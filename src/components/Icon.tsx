@@ -13,7 +13,6 @@ export default function Icon({
 }: {
   name: IconName;
   className?: string;
-  strokeWidth?: number;
 }) {
   const filled = name === "bolt";
   return (
