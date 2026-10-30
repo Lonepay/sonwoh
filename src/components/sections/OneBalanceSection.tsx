@@ -50,8 +50,8 @@ export default function OneBalanceSection() {
               alt="Two phones showing the Sonwoh balance, quick services and rewards screens"
               width={888}
               height={780}
-              sizes="(max-width: 1024px) 90vw, 520px"
-              className="mx-auto h-auto w-full max-w-[520px]"
+              sizes="(max-width: 1024px) 90vw, 500px"
+              className="mx-auto h-auto w-full max-w-[500px]"
             />
           </div>
         </div>
