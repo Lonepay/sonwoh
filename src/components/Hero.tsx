@@ -72,8 +72,8 @@ export default function Hero() {
                 width={536}
                 height={606}
                 priority
-                sizes="(max-width: 1024px) 80vw, 420px"
-                className="relative mx-auto h-auto w-full max-w-[300px] sm:max-w-[380px]"
+                sizes="(max-width: 1024px) 60vw, 280px"
+                className="relative mx-auto block h-auto w-[60%] max-w-[280px]"
               />
 
               {NOTES.map((note) => (
@@ -104,6 +104,28 @@ export default function Hero() {
             </div>
           </div>
         </div>
+
+        {/* the double-chevron scroll cue, centred under the hero */}
+        <a
+          href="#why-sonwoh"
+          aria-label="Scroll to what Sonwoh offers"
+          className="mx-auto mt-10 hidden w-fit text-ink/80 transition-colors hover:text-ink lg:block"
+        >
+          <svg
+            viewBox="0 0 28 34"
+            className="h-9 w-7"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden
+          >
+            <path d="M6 4h16" />
+            <path d="M5 13l9 9 9-9" />
+            <path d="M9 22l5 6 5-6" />
+          </svg>
+        </a>
       </div>
     </section>
   );
