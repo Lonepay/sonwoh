@@ -14,7 +14,9 @@ export default function Icon({
   name: IconName;
   className?: string;
 }) {
-  const filled = name === "bolt";
+  const icon = ICONS[name];
+  if (!icon) return null;
+
   return (
     <svg
       viewBox="0 0 24 24"
