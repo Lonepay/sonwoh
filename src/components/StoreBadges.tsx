@@ -71,7 +71,13 @@ export default function StoreBadges({
       >
         <PlayGlyph className="h-8 w-8 shrink-0" flat={!light} />
         <span className="flex flex-col leading-none">
-          <span className="text-[11px] font-medium">GET IT ON</span>
+          <span
+            className={`text-[11px] font-medium ${
+              light ? "opacity-70" : "text-white/70"
+            }`}
+          >
+            GET IT ON
+          </span>
           <span className="mt-1 text-[19px] font-semibold">Google play</span>
         </span>
       </Link>
