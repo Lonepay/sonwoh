@@ -104,18 +104,15 @@ export const CAPABILITIES = [
   },
   {
     title: "Electricity & bills",
+    tile: "navy",
     body: "Pay electricity and other household bills straight from your Sonwoh balance — no queues.",
-    icon: "power",
-  },
-  {
-    title: "Airtime & data",
-    body: "Top up your line or grab a data bundle on any network, in a couple of taps.",
-    icon: "phone",
+    icon: "subway:power",
   },
   {
     title: "More, always on the way",
+    tile: "green",
     body: "New billers, new assets, and new ways to pay get added regularly based on what people ask for.",
-    icon: "more",
+    icon: "icon-park-solid:more-app",
   },
   {
     title: "Sonwoh Virtual card",
