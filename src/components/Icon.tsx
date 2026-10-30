@@ -10,7 +10,6 @@ export type IconName = keyof typeof ICONS;
 export default function Icon({
   name,
   className = "h-6 w-6",
-  strokeWidth = 1.6,
 }: {
   name: IconName;
   className?: string;
