@@ -5,20 +5,7 @@ import ICONS from "@/lib/figma-icons.json";
  * the names recorded on each node (e.g. "tdesign:money") and inlined so there
  * is no runtime dependency on the Iconify CDN.
  */
-  ),
-  creditcard: (
-    <>
-      <rect x="2.5" y="5" width="19" height="14" rx="2.5" />
-      <path d="M2.5 9.8h19M6 14.6h3.5M14 14.6h4" />
-    </>
-  ),
-  check: (
-    <>
-      <circle cx="12" cy="12" r="9" />
-      <path d="m8.4 12.2 2.5 2.5 4.7-5.2" />
-    </>
-  ),
-};
+export type IconName = keyof typeof ICONS;
 
 export default function Icon({
   name,
