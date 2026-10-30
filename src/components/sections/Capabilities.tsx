@@ -86,9 +86,16 @@ export default function Capabilities() {
                 )}
                 {i > 0 && (
                   <span
-              <span className="inline-flex h-[52px] w-[52px] items-center justify-center rounded-[14px] bg-white text-brand">
-                <Icon name={item.icon as IconName} className="h-7 w-7" />
-              </span>
+                    aria-hidden
+                    className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-brand to-accent sm:hidden"
+                  />
+                )}
+                <Card item={item} />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
 
               <div className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-2">
                 <h3 className="font-display text-[18px] font-bold text-ink">
