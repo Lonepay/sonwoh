@@ -57,7 +57,21 @@ export default function OneBalanceSection() {
         </div>
       </div>
 
-      <div className="h-10 bg-ink lg:h-14" />
+      {/* the dotted grid and green disc that close the dark panel */}
+      <div className="relative h-16 bg-ink lg:h-24">
+        <div
+          aria-hidden
+          className="absolute -top-8 right-[7%] hidden h-[80px] w-[150px] lg:block"
+          style={{
+            backgroundImage: "radial-gradient(#2f6bff 1.8px, transparent 1.9px)",
+            backgroundSize: "22px 22px",
+          }}
+        />
+        <span
+          aria-hidden
+          className="absolute bottom-6 right-[4%] hidden h-9 w-9 rounded-full bg-brand lg:block"
+        />
+      </div>
     </section>
   );
 }
