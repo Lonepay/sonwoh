@@ -3,8 +3,19 @@ import Link from "next/link";
 
 export default function GiftCardSection() {
   return (
-    <section className="relative overflow-hidden bg-[#fafafa] py-16 lg:py-0">
-      <div className="mx-auto max-w-[1240px] px-5 sm:px-6 lg:px-0">
+    <section className="relative bg-[#fafafa] py-16 lg:py-0">
+      {/* the stacked cubes that spill in from the section above */}
+      <Image
+        src="/images/cubes.png"
+        alt=""
+        aria-hidden
+        width={544}
+        height={645}
+        sizes="200px"
+        className="pointer-events-none absolute -left-10 -top-28 z-10 hidden w-[200px] lg:block"
+      />
+
+      <div className="relative mx-auto max-w-[1240px] px-5 sm:px-6 lg:px-0">
         <div className="grid items-center gap-12 lg:min-h-[860px] lg:grid-cols-2 lg:gap-10">
           <div className="order-2 lg:order-1">
             <h2 className="font-display text-[34px] font-black leading-[1.2] text-ink lg:text-[42px]">
