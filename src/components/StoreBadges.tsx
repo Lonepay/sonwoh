@@ -54,7 +54,9 @@ export default function StoreBadges({
       >
         <AppleGlyph className="h-8 w-8 shrink-0" />
         <span className="flex flex-col leading-none">
-          <span className="text-[11px] font-medium opacity-80">Download on the</span>
+          <span className="text-[11px] font-medium opacity-70">
+            Download on the
+          </span>
           <span className="mt-1 text-[19px] font-semibold">App Store</span>
         </span>
       </Link>
