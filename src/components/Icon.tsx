@@ -19,7 +19,7 @@ export default function Icon({
 
   return (
     <svg
-      viewBox="0 0 24 24"
+      viewBox={icon.viewBox}
       className={className}
       fill={filled ? "currentColor" : "none"}
       stroke={filled ? "none" : "currentColor"}
