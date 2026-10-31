@@ -33,7 +33,7 @@ export default function Testimonials() {
             className="mx-auto block h-auto w-full max-w-[320px] self-end lg:max-w-[420px]"
           />
 
-          <div>
+          <div className="pb-16 lg:py-[70px]">
             <h2 className="max-w-[420px] font-display text-[34px] font-black leading-[1.15] text-white lg:text-[40px]">
               Trusted by Thousands of Happy Users
             </h2>
