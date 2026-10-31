@@ -20,9 +20,11 @@ export function LogoMark({ className = "" }: { className?: string }) {
 export default function Logo({
   className = "",
   wordmark = true,
+  tone = "light",
 }: {
   className?: string;
   wordmark?: boolean;
+  tone?: "light" | "dark";
 }) {
   return (
     <Link
@@ -32,7 +34,11 @@ export default function Logo({
     >
       <LogoMark className="h-9 w-9" />
       {wordmark && (
-        <span className="font-display text-[26px] font-bold tracking-tight text-ink">
+        <span
+          className={`font-display text-[26px] font-bold tracking-tight ${
+            tone === "dark" ? "text-white" : "text-ink"
+          }`}
+        >
           sonwoh
         </span>
       )}
