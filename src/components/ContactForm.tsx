@@ -65,7 +65,7 @@ export default function ContactForm() {
                 sent ? "" : "invisible"
               }`}
             >
-              Thanks — you&apos;re on the list.
+              Thanks — you&apos;re on the waitlist.
             </p>
           </form>
         </div>
