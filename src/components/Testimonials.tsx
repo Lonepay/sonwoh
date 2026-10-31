@@ -21,16 +21,16 @@ function Stars() {
 
 export default function Testimonials() {
   return (
-    <section className="bg-ink py-16 lg:py-[70px]">
+    <section className="bg-ink pt-16 lg:pt-0">
       <div className="mx-auto max-w-[1240px] px-5 sm:px-6 lg:px-0">
-        <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,420px)_1fr] lg:gap-16">
+        <div className="grid items-end gap-12 lg:grid-cols-[minmax(0,420px)_1fr] lg:gap-16">
           <Image
             src="/images/people.png"
             alt="Three Sonwoh users celebrating while using the app"
             width={960}
             height={1116}
             sizes="(max-width: 1024px) 80vw, 420px"
-            className="mx-auto h-auto w-full max-w-[320px] lg:max-w-[420px]"
+            className="mx-auto block h-auto w-full max-w-[320px] self-end lg:max-w-[420px]"
           />
 
           <div>
