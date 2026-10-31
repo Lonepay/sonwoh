@@ -69,6 +69,16 @@ export default function ContactForm() {
             </p>
           </form>
         </div>
+
+        {/* the blue arrow mark that sits beside the field */}
+        <svg
+          aria-hidden
+          viewBox="0 0 52 58"
+          className="pointer-events-none absolute right-[56px] top-[105px] hidden h-[58px] w-[52px] text-accent xl:block"
+          fill="currentColor"
+        >
+          <path d="M50.3 2.6c1.1.7 1.7 1.9 1.7 3.2v46.4c0 1.3-.6 2.5-1.7 3.2-1.1.6-2.4.6-3.5 0L2.9 32.2C1.8 31.6 1.1 30.4 1.1 29s.7-2.6 1.8-3.2L46.8 2.6c1.1-.6 2.4-.6 3.5 0Z" />
+        </svg>
       </div>
     </section>
   );
