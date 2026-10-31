@@ -73,8 +73,8 @@ export default function Hero() {
                 width={536}
                 height={606}
                 priority
-                sizes="(max-width: 1024px) 60vw, 280px"
-                className="relative mx-auto block h-auto w-[60%] max-w-[280px]"
+                sizes="(max-width: 1024px) 62vw, 320px"
+                className="relative mx-auto block h-auto w-[62%] max-w-[320px]"
               />
 
               {NOTES.map((note) => (
