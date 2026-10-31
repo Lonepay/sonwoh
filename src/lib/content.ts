@@ -116,14 +116,16 @@ export const CAPABILITIES = [
   },
   {
     title: "Sonwoh Virtual card",
+    tile: "white",
     body: "A virtual card that spends straight from your balance, for checkout anywhere online.",
-    icon: "card",
+    icon: "solar:card-broken",
     soon: true,
   },
   {
     title: "Sonwoh Credit card",
+    tile: "white",
     body: "Crypto-backed credit for when you need to spend before you sell.",
-    icon: "creditcard",
+    icon: "ion:card",
     soon: true,
   },
 ] as const;
