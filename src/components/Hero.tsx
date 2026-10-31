@@ -57,7 +57,7 @@ export default function Hero() {
             <StoreBadges className="mt-9" />
           </div>
 
-          <div className="relative mx-auto w-full max-w-[460px] lg:max-w-[480px]">
+          <div className="relative mx-auto w-full max-w-[460px] lg:max-w-[520px]">
             <div className="relative">
               {/* The phone overhangs the panel at the top only - both are cut
                   on the same bottom line in the design, so anchor to bottom-0
