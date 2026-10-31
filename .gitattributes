@@ -1,0 +1,17 @@
+# Normalise line endings so the repo stores LF regardless of platform.
+# Without this, a CRLF worktree against LF blobs makes git see whole files as
+# changed, which produces diffs that contain no real edits.
+* text=auto eol=lf
+
+# Binary assets must never be touched by eol conversion.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.pdf binary
