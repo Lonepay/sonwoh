@@ -59,10 +59,11 @@ export default function Hero() {
 
           <div className="relative mx-auto w-full max-w-[460px] lg:max-w-[480px]">
             <div className="relative">
-              {/* The panel is 400x242 behind a 268-wide phone in the design, so
-                  the phone overhangs it both above and below. */}
+              {/* The phone overhangs the panel at the top only - both are cut
+                  on the same bottom line in the design, so anchor to bottom-0
+                  rather than giving the panel a height of its own. */}
               <div
-                className="hex-field absolute left-[8%] top-[27%] hidden h-[63%] w-[84%] rounded-[16px] opacity-70 sm:block"
+                className="hex-field absolute bottom-0 left-1/2 top-[33%] hidden w-[92%] -translate-x-1/2 rounded-[16px] opacity-70 sm:block"
                 aria-hidden
               />
 
